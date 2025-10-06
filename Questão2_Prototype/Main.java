@@ -1,5 +1,16 @@
 package Questão2_Prototype;
-
+/** 
+* Classe Main (Cliente)
+ *
+ * Demonstra o uso do padrão Prototype para criar processadores de pagamento.
+ *
+ * O padrão Prototype foi escolhido para criar novas instâncias de objetos
+ * através da clonagem de "modelos" pré-configurados. Essa abordagem
+ * desacopla o cliente do processo de criação e é altamente eficiente, pois
+ * evita o custo de recriar objetos complexos do zero a cada vez.
+ * A adição de novos processadores é feita dinamicamente, registrando
+ * um novo protótipo.
+*/
 public class Main {
     public static void main(String[] args) {
         // O cliente cria o registro que contém os protótipos.

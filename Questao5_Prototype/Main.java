@@ -1,5 +1,19 @@
 package Questao5_Prototype;
 
+/**
+ * Classe Main (Cliente)
+ *
+ * Demonstra o uso do padrão Prototype.
+ *
+ * O padrão Prototype foi escolhido por ser a solução ideal para criar objetos a
+ * partir da cópia de "modelos" existentes. Ele permite a criação de novos
+ * documentos através da clonagem de protótipos pré-configurados.
+ *
+ * Essa abordagem evita o custo de recriação de objetos complexos e desacopla
+ * o cliente das classes concretas, que apenas solicita um clone a um registro
+ * central.
+ */
+
 public class Main {
     public static void main(String[] args) {
        // O cliente cria o gerenciador que já contém os modelos.

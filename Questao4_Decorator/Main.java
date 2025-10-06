@@ -1,5 +1,17 @@
 package Questao4_Decorator;
 
+/**
+ * Classe Main (Cliente)
+ *
+ * Demonstra o uso do padrão Decorator.
+ *
+ * O padrão Decorator foi escolhido para estender as funcionalidades de um relatório
+ * de forma flexível e sem modificar seu código-fonte. A abordagem consiste em
+ * "envelopar" o objeto base com decoradores que adicionam novas responsabilidades,
+ * como estatísticas e gráficos, de maneira combinável e dinâmica. Isso respeita o
+ * Princípio Aberto/Fechado e evita a criação de múltiplas subclasses.
+ */
+
 public class Main {
     public static void main(String[] args) {
         // 1. Começamos com o objeto básico

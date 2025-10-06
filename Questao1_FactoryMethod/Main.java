@@ -5,6 +5,11 @@ package Questao1_FactoryMethod;
  *
  * Demonstra o uso do padrão Factory Method para criar e utilizar
  * diferentes tipos de transporte de forma genérica.
+ * O padrão foi escolhido para centralizar a lógica de criação dos objetos
+ * de transporte e desacoplar o cliente das classes concretas.
+ * A fábrica (`TransporteFactory`) decide qual tipo de transporte instanciar,
+ * permitindo que o sistema seja facilmente estendido com novos tipos
+ * sem impactar o código que os consome.
  */
 public class Main {
     public static void main(String[] args) {

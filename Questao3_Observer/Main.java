@@ -1,9 +1,17 @@
 package Questao3_Observer;
 
 /**
- * Demonstra o funcionamento do padrão Observer.
- * Cria tópicos (Subjects) e leitores (Observers), estabelece as assinaturas
- * e simula a publicação de notícias para ver as notificações em ação.
+ * Classe Main (Cliente)
+ *
+ * Demonstra o uso do padrão Observer.
+ *
+ * O padrão Observer foi escolhido para implementar o sistema de assinatura de
+ * notícias, pois ele define uma relação de um-para-muitos onde um "Subject"
+ * (Tópico) notifica automaticamente seus "Observers" (Leitores) sobre
+ * mudanças de estado.
+ *
+ * Isso garante um baixo acoplamento entre os componentes e permite que
+ * assinantes sejam adicionados e removidos dinamicamente.
  */
 
 public class Main {
